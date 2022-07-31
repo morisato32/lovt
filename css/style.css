@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+}
+header{
+    box-shadow: 0 -2px 10px black;
+    padding: 20px;
+    padding: 16px 24px; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+  
+   
+}
+.container {
+  display: flex;
+  
+ 
+  
+}
+.logo img{
+   padding: 7px;
+}
+.container span{
+   font-size: 14px;
+}
+
+.menu img{
+    margin-left: 150px;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.banner img{
+    padding-top: 10px;
+    width: 100%;
+    padding:2%;
+ 
+}
+
+.principal{
+    background-color: gray;
+    margin-top: 10px;
+    
+}
+.principal img{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 2%;
+
+}
+.principal p{
+    padding: 4% 4%;
+    margin-bottom: 10px;
+}
+
+ .principal button{
+    border-radius: 40%;
+    background-color: green;
+    color:white;
+    padding:5px;
+    cursor:pointer;
+ }
+ .principal span{
+    font-size: 24px;
+    padding-left: 11.25px;
+    
+ }
+
+ .principal button{
+    float:right;
+    padding: 0 3%;
+    margin-right: 20px;
+    font-size: 18px;
+ }
+
+ h2{
+    text-align: center;
+    margin: 20px ;
+ }
+ form input{
+    display:block;
+    text-align:center;
+    width:250px;
+  margin-left:80px
+
+  }
+form textarea{
+ margin-left:80px;
+ margin-top:20px;
+ padding:50px;
+}
+form button{
+    margin-left:180px;
+    margin-top:15px;
+    cursor:pointer;
+   }
+
+
+
+
+
+
+
+
+
+
