@@ -6,6 +6,7 @@
 }
 html,body{
     height: 100%;
+
 }
 main{
     padding: 5%;
@@ -15,29 +16,48 @@ header{
     padding: 20px;
     padding: 16px 24px; 
     display: flex; 
-    justify-content: flex-start; 
-    align-items: center;
+    
  
   
    
 }
-.container {
-  display: flex;
+header span {
+    display: flex;
+     top: 1%;
+    left: 80px;
+ 
+}
+.container{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
   
  
   
+
+.logo{
+ display:flex;
+ 
+ 
+ 
 }
 .logo img{
    padding: 10px;
+
+
 }
 .container span{
    font-size: 14px;
  
 }
 
+
 .menu img{
-    margin-left: 150px;
-    margin-top:10px;
+   margin-top:10px;
+   margin-left: 150px;
    
 }
 
@@ -49,9 +69,23 @@ header{
 }
 
 .principal{
-    background-color: #eeeeee;
     margin-top: 10px;
+   
+   
     
+}
+.principal1{
+margin-bottom: 20px;
+background-color: #eee;
+}
+.principal2{
+    background-color:#eee;
+}
+.principal > article {
+    margin:20px;
+  
+    
+  
 }
 .principal img{
     width: 100%;
@@ -92,6 +126,7 @@ header{
  }
  .secundaria img{
     width: 100%;
+    border-radius: 5px;
  }
  form input{
     display:block;
@@ -102,21 +137,29 @@ header{
 
   }
 textarea{
-margin-left: 40px;
+margin-left:10%;
  margin-top:20px;
  padding:50px;
+ resize: none;
 }
 form button{
     margin-left:140px;
     margin-top:15px;
     cursor:pointer;
     margin-bottom: 15px;
+    background-color: #dc9730;
+    padding:5px;
+    border:none;
+    color:white;
+    
    }
    footer{
     display:flex;
+    line-height: 25px;
    }
    .box{
     display: flex;
+    width: 100%;
    }
 
 .box iframe{
@@ -135,17 +178,51 @@ form button{
   
 }
 
-@media(min-width:320px){
-    .menu a{
-       margin-left:100px
-    }
-   textarea{
-    margin-left:77px
-   }
- form button{
-  margin-left:180px 
- }
+.box img{
+    padding-top:10px;
+    margin:0 10px;
+  
 }
+.box a{
+    text-decoration: none;
+}
+
+@media(min-width:1280px){
+    textarea{
+        margin-left: 38%;
+    }
+    form button{
+        display: block;
+        margin: 20px auto;
+    }
+    form input{
+        width:30%;
+    }
+    .principal img{
+        width:500px;
+        height: 350px;
+    }
+    .principal{
+        display:flex;
+        
+        
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
